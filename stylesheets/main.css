@@ -1,0 +1,117 @@
+body {
+    
+}
+
+.img-header {
+    background-image: url("../images/space-header-small.jpg");
+    background-size: 1920px 500px;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.img-header h1 {
+    cursor: default;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    margin-left: -146px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar-header a.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+
+footer {
+    background: #111;
+    color: white;
+    height: 60px;
+    margin-top: 100px;
+}
+
+footer .fa {
+    color: white;
+}
+
+footer .row {
+    margin-top: 15px;
+}
+
+/*
+********************************
+******** Animation Junk ********
+********************************
+*/
+
+.es-about, .hub-about {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.es-about h2, .hub-about h2 {
+    font-weight: bold;
+}
+
+.es-about p, .hub-about p {
+    font-size: 17px;
+    margin: 10px auto;
+    text-align: left;
+    max-width: 800px;
+}
+
+#sparrow1 {
+    -webkit-animation: sparrow-fly 3s linear 10;
+    animation: sparrow-fly 8s linear 2;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+
+@-webkit-keyframes sparrow-fly {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        top: -10%;
+        left: -10%;
+    }
+    100% {
+        -webkit-transform: rotate(720deg);
+        transform: rotate(720deg);
+        top: 80%;
+        left: 100%;
+    }
+}
+
+@keyframes sparrow-fly {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        top: -10%;
+        left: -10%;
+    }
+    100% {
+        -webkit-transform: rotate(720deg);
+        transform: rotate(720deg);
+        top: 80%;
+        left: 100%;
+    }
+}
