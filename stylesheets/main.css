@@ -1,6 +1,4 @@
-body {
-    
-}
+body {}
 
 .img-header {
     background-image: url("../images/space-header-small.jpg");
@@ -24,7 +22,6 @@ body {
     position: absolute;
     text-align: center;
     z-index: 1;
-
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -35,7 +32,6 @@ body {
     color: white;
     font-weight: bold;
 }
-
 
 footer {
     background: #111;
@@ -52,22 +48,26 @@ footer .row {
     margin-top: 15px;
 }
 
+
 /*
 ********************************
 ******** Animation Junk ********
 ********************************
 */
 
-.es-about, .hub-about {
+.es-about,
+.hub-about {
     text-align: center;
     margin: 0 auto;
 }
 
-.es-about h2, .hub-about h2 {
+.es-about h2,
+.hub-about h2 {
     font-weight: bold;
 }
 
-.es-about p, .hub-about p {
+.es-about p,
+.hub-about p {
     font-size: 17px;
     margin: 10px auto;
     text-align: left;
@@ -75,10 +75,10 @@ footer .row {
 }
 
 #sparrow1 {
-    -webkit-animation: sparrow-fly 3s linear 10;
-    animation: sparrow-fly 8s linear 2;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation: sparrow-fly 16s linear 1;
+    animation: sparrow-fly 16s linear 1;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
     -webkit-transform-origin: center;
     transform-origin: center;
     position: absolute;
